@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Brand Lifters, a full-service marketing agency dedicated to helping businesses succeed in today's digital world. Our team of experts specializes in crafting customized solutions that drive growth, build brand awareness, and create a lasting impact."
+    />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel="apple-touch-icon" href="./img/apple-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <script src="./script/script.js" defer></script>
+
+    <title>Brand Lifters - Get Your Brand To Next Level</title>
+  </head>
+  <body>
+    <div id="darker-bg" class="darker-bg"></div>
+
+    <div id="side-nav" class="side-nav">
+      <button id="close-btn" class="close-btn">+</button>
+      <ul class="nav-links">
+        <li class="nav-link">
+          <a class="side-nav-link" href="#home">HOME</a>
+        </li>
+        <li class="nav-link">
+          <a class="side-nav-link" href="#about-us">ABOUT US</a>
+        </li>
+        <li class="nav-link">
+          <a class="side-nav-link" href="#our-service">OUR SERVICE</a>
+        </li>
+        <li class="nav-link">
+          <a class="side-nav-link" href="#testimonials">TESTIMONIALS</a>
+        </li>
+      </ul>
+      <button
+        onclick="location.href=`#contact-us`"
+        class="nav-cta side-nav-link"
+      >
+        CONTACT US
+      </button>
+    </div>
+
+    <nav id="fixed-nav" class="fixed-nav">
+      <div class="container flex-space normal-flex">
+        <img class="logo" src="./img/logo.png" alt="Logo" />
+        <ul class="nav-links nav-links-none">
+          <li class="nav-link">
+            <a href="#home">HOME</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#about-us">ABOUT US</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#our-service">OUR SERVICE</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#testimonials">TESTIMONIALS</a>
+            <div class="underline"></div>
+          </li>
+        </ul>
+        <button
+          onclick="location.href=`#contact-us`"
+          class="nav-cta nav-links-none"
+        >
+          CONTACT US
+        </button>
+
+        <button
+          aria-label="Burger Button"
+          id="burger-btn-fixed"
+          class="burger-btn"
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+      </div>
+    </nav>
+
+    <nav>
+      <div class="container flex-space normal-flex">
+        <img class="logo" src="./img/logo.png" alt="Logo" />
+        <ul class="nav-links nav-links-none">
+          <li class="nav-link">
+            <a href="#home">HOME</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#about-us">ABOUT US</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#our-service">OUR SERVICE</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#testimonials">TESTIMONIALS</a>
+            <div class="underline"></div>
+          </li>
+        </ul>
+        <button
+          onclick="location.href=`#contact-us`"
+          class="nav-cta nav-links-none"
+        >
+          CONTACT US
+        </button>
+
+        <button aria-label="Burger Button" id="burger-btn" class="burger-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION OR HOME -->
+    <section id="home" class="section">
+      <div class="container flex-space gap75 reverse">
+        <img class="star-icon" src="./img/star.png" alt="Star" />
+
+        <div class="text-container">
+          <h1 class="main-heading">
+            Elevate Your Brand with Our Strategic Marketing Solutions
+          </h1>
+          <p class="text">
+            Do you want to take your brand to the next level? Our strategic
+            marketing solutions are tailored to help you stand out from the
+            crowd and achieve your goals. Let us be your partners in success and
+            bring your vision to life.
+          </p>
+          <button onclick="location.href=`#contact-us`" class="cta">
+            LEARN MORE
+          </button>
+        </div>
+
+        <img class="astronaut-img" src="./img/astronaut.avif" alt="Astronaut" />
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about-us" class="section">
+      <div class="container flex-space gap75">
+        <img class="plus-icon" src="./img/plus.png" alt="Plus" />
+
+        <img class="me-img" src="./img/me.webp" alt="We" />
+
+        <div class="text-container">
+          <h2 class="second-heading"><span>#</span>About Us</h2>
+          <p class="text">
+            We're passionate marketers helping businesses succeed in the digital
+            world. We connect with your audience, tell your story, and deliver
+            measurable results. Boost your social media, run killer ad
+            campaigns, or revamp your marketing strategy with us. Let's take
+            your brand to the next level!
+          </p>
+          <button onclick="location.href=`#contact-us`" class="cta">
+            WORK WITH US
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SERVICE SECTION -->
+    <section id="our-service" class="section">
+      <div class="container flex-space gap20">
+        <img class="minus-icon" src="./img/minus.png" alt="Minus" />
+
+        <div class="text-container">
+          <h2 class="second-heading"><span>#</span>Our Service</h2>
+          <p class="text">
+            At The Brand Lifters, we don't just follow the norm of digital
+            marketing firms. Our cutting-edge methodology, Revenue-Driven
+            Optimization (RDO), delivers proven, measurable results. By
+            analyzing data, leveraging automated platforms, and creating
+            captivating content, we optimize for maximum revenue and success for
+            our clients. With our unwavering dedication to profitability and
+            growth, we are confident that we can elevate your brand to new
+            heights.
+          </p>
+          <button onclick="location.href=`#contact-us`" class="cta">
+            START ELEVATING YOUR BRAND
+          </button>
+        </div>
+
+        <img class="rocket-img" src="./img/rocket.webp" alt="Rocket" />
+      </div>
+
+      <div class="container mt80">
+        <img class="block-icon" src="./img/block.png" alt="Block" />
+
+        <h3 class="third-heading text-center">What We Offer</h3>
+        <p class="small-text text-center">
+          Every business needs something a little different. We are a 360°
+          solution
+        </p>
+        <div class="grid-container">
+          <div>
+            <img class="icons" src="./img/strategy.png" alt="Strategy" />
+            <p>Strategy Build</p>
+          </div>
+          <div>
+            <img class="icons" src="./img/doll.png" alt="Dollar" />
+            <p>Social Media Ads</p>
+          </div>
+          <div>
+            <img class="icons" src="./img/diamond.png" alt="Diamond" />
+            <p>Graphic Design</p>
+          </div>
+          <div>
+            <img class="icons" src="./img/monitor.png" alt="Monitor" />
+            <p>Video Editing</p>
+          </div>
+          <div>
+            <img class="icons" src="./img/pencil.png" alt="Pencil" />
+            <p>Copywriting</p>
+          </div>
+          <div>
+            <img class="icons" src="./img/browser.png" alt="Browser" />
+            <p>Websites & Apps</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <img class="polygon-icon" src="./img/polygon.png" alt="Polygon" />
+
+        <h2 class="second-heading text-center"><span>#</span>Testimonials</h2>
+
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img class="" src="./img/men.webp" alt="Men" />
+              <img class="comment-img" src="./img/comment.png" alt="Comment" />
+            </div>
+            <p class="comment">
+              The team has taken my brand to another level. Now I can reach
+              other markets and thanks to that I have increased my sales
+              considerably.
+            </p>
+            <div class="line"></div>
+            <p class="name">Ethan Rodriguez</p>
+            <p class="position">CEO, company name</p>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-img">
+              <img class="" src="./img/men.png" alt="Men" />
+              <img class="comment-img" src="./img/comment.png" alt="Comment" />
+            </div>
+            <p class="comment">
+              The team has taken my brand to another level. Now I can reach
+              other markets and thanks to that I have increased my sales
+              considerably.
+            </p>
+            <div class="line"></div>
+            <p class="name">Ethan Rodriguez</p>
+            <p class="position">CEO, company name</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT US SECTION  -->
+    <section id="contact-us" class="section">
+      <div class="container flex-space ai-start gap40">
+        <img class="arrow-icon" src="./img/arrow.png" alt="Arrow" />
+
+        <div class="left">
+          <h2 class="second-heading"><span>#</span>Contact Us</h2>
+          <form action="">
+            <label for="full-name">Full Name</label>
+            <input id="full-name" class="name" type="text" required />
+            <label class="mt20" for="email">Email</label>
+            <input id="email" class="email" type="email" required />
+            <label class="mt20" for="company">Company Name</label>
+            <input id="company" class="company" type="text" />
+            <label class="mt20" for="message">Message</label>
+            <textarea
+              id="message"
+              class="message"
+              name="message"
+              required
+            ></textarea>
+            <input class="contact-cta" type="submit" value="Contact Us" />
+          </form>
+        </div>
+
+        <div class="right">
+          <img class="contact-img" src="./img/contact.avif" alt="Contact" />
+          <div class="flex-gap40 mt60">
+            <div>
+              <img
+                class="img-btn"
+                onclick="window.location = `mailto:xyz@yourapplicationdomain.com`;"
+                src="./img/email-icon.png"
+                alt="Email Icon"
+              /><a
+                class="hidden"
+                href="mailto:thebrandlifters.contact@gmail.com"
+                >thebrandlifters.contact@gmail.com</a
+              >
+            </div>
+            <div class="mt40">
+              <img
+                class="img-btn"
+                onclick="window.location = `tel:+389 072 540 111`;"
+                src="./img/phone-icon.png"
+                alt="Phone Icon"
+              /><a class="hidden" href="tel:+389 072 540 111"
+                >(+389) 072 540 111</a
+              >
+            </div>
+            <div class="gap40 mt40">
+              <a class="social-media" href="#"
+                ><img src="./img/insta-icon.png" alt="Instagram Icon"
+              /></a>
+
+              <a class="social-media" href="#"
+                ><img src="./img/facebook-icon.png" alt="Facebook Icon"
+              /></a>
+
+              <a class="social-media" href="#"
+                ><img src="./img/linkedin-icon.png" alt="Linkedin Icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        Website designed and developed by
+        <a href="#" target="_blank">Aleksandar Spasojevic</a>
+      </p>
+    </footer>
+  </body>
+</html>
